@@ -7,17 +7,17 @@
       dest: "{{ item.dest }}"
       remote_src: yes
     loop:
-    - {src: '/vagrant/4525/arquivos/Aula\ 7.4/manifests/java8.pp', dest: '/etc/puppetlabs/code/environments/production/modules/elastic_stack/manifests/'}
-    - {src: '/vagrant/4525/arquivos/Aula\ 7.4/files/elasticsearch.yml', dest: '/etc/puppetlabs/code/environments/production/modules/elastic_stack/files/'}
-    - {src: '/vagrant/4525/arquivos/Aula\ 7.4/manifests/elasticsearch.pp', dest: '/etc/puppetlabs/code/environments/production/modules/elastic_stack/manifests/'}
-    - {src: '/vagrant/4525/arquivos/Aula\ 7.4/files/kibana.yml', dest: '/etc/puppetlabs/code/environments/production/modules/elastic_stack/files/'}
-    - {src: '/vagrant/4525/arquivos/Aula\ 7.4/manifests/kibana.pp', dest: '/etc/puppetlabs/code/environments/production/modules/elastic_stack/manifests/'}
-    - {src: '/vagrant/4525/arquivos/Aula\ 7.4/files/default', dest: '/etc/puppetlabs/code/environments/production/modules/elastic_stack/files/'}
-    - {src: '/vagrant/4525/arquivos/Aula\ 7.4/manifests/nginx.pp', dest: '/etc/puppetlabs/code/environments/production/modules/elastic_stack/manifests/'}
-    - {src: '/vagrant/4525/arquivos/Aula\ 7.4/files/filebeat-input.conf', dest: '/etc/puppetlabs/code/environments/production/modules/elastic_stack/files/'}
-    - {src: '/vagrant/4525/arquivos/Aula\ 7.4/files/output-elasticsearch.conf', dest: '/etc/puppetlabs/code/environments/production/modules/elastic_stack/files/'}
-    - {src: '/vagrant/4525/arquivos/Aula\ 7.4/files/syslog-filter.conf', dest: '/etc/puppetlabs/code/environments/production/modules/elastic_stack/files/'}
-    - {src: '/vagrant/4525/arquivos/Aula\ 7.4/manifests/logstash.pp', dest: '/etc/puppetlabs/code/environments/production/modules/elastic_stack/manifests/'}
-    - {src: '/vagrant/4525/arquivos/Aula\ 7.4/files/filebeat.yml', dest: '/etc/puppetlabs/code/environments/production/modules/elastic_stack/files/'}
-    - {src: '/vagrant/4525/arquivos/Aula\ 7.4/manifests/filebeat.pp', dest: '/etc/puppetlabs/code/environments/production/modules/elastic_stack/manifests/'}
-    - {src: '/vagrant/4525/arquivos/Aula\ 7.4/site.pp', dest: '/etc/puppetlabs/code/environments/production/manifests'}
+    - {src: '/vagrant/4525/arquivos/Aula 7.4/manifests/java8.pp', dest: '/etc/puppetlabs/code/environments/production/modules/elastic_stack/manifests/'}
+    - {src: '/vagrant/4525/arquivos/Aula 7.4/files/elasticsearch.yml', dest: '/etc/puppetlabs/code/environments/production/modules/elastic_stack/files/'}
+    - {src: '/vagrant/4525/arquivos/Aula 7.4/manifests/elasticsearch.pp', dest: '/etc/puppetlabs/code/environments/production/modules/elastic_stack/manifests/'}
+    - {src: '/vagrant/4525/arquivos/Aula 7.4/files/kibana.yml', dest: '/etc/puppetlabs/code/environments/production/modules/elastic_stack/files/'}
+    - {src: '/vagrant/4525/arquivos/Aula 7.4/manifests/kibana.pp', dest: '/etc/puppetlabs/code/environments/production/modules/elastic_stack/manifests/'}
+    - {src: '/vagrant/4525/arquivos/Aula 7.4/files/default', dest: '/etc/puppetlabs/code/environments/production/modules/elastic_stack/files/'}
+    - {src: '/vagrant/4525/arquivos/Aula 7.4/manifests/nginx.pp', dest: '/etc/puppetlabs/code/environments/production/modules/elastic_stack/manifests/'}
+    - {src: '/vagrant/4525/arquivos/Aula 7.4/files/filebeat-input.conf', dest: '/etc/puppetlabs/code/environments/production/modules/elastic_stack/files/'}
+    - {src: '/vagrant/4525/arquivos/Aula 7.4/files/output-elasticsearch.conf', dest: '/etc/puppetlabs/code/environments/production/modules/elastic_stack/files/'}
+    - {src: '/vagrant/4525/arquivos/Aula 7.4/files/syslog-filter.conf', dest: '/etc/puppetlabs/code/environments/production/modules/elastic_stack/files/'}
+    - {src: '/vagrant/4525/arquivos/Aula 7.4/manifests/logstash.pp', dest: '/etc/puppetlabs/code/environments/production/modules/elastic_stack/manifests/'}
+    - {src: '/vagrant/4525/arquivos/Aula 7.4/files/filebeat.yml', dest: '/etc/puppetlabs/code/environments/production/modules/elastic_stack/files/'}
+    - {src: '/vagrant/4525/arquivos/Aula 7.4/manifests/filebeat.pp', dest: '/etc/puppetlabs/code/environments/production/modules/elastic_stack/manifests/'}
+    - {src: '/vagrant/4525/arquivos/Aula 7.4/site.pp', dest: '/etc/puppetlabs/code/environments/production/manifests'}
